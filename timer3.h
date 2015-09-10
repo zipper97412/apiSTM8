@@ -38,3 +38,10 @@ void t3_reset();
 \return la valeur des registres
 */
 u16 t3_getTime();
+
+
+/**
+\brief cette fonction permet de regarder la valeur de UIF
+\return la valeur de UIF
+*/
+int t3_end(void);
