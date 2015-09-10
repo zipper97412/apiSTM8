@@ -34,7 +34,7 @@ void t4_reset();
 
 
 /**
-\brief cette fonction permet de connaitre le contenu actuel des registres arr
+\brief cette fonction permet de connaitre le contenu actuel du registre CNTR
 \return la valeur des registres
 */
 u8 t4_getTime();
