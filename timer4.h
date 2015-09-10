@@ -44,3 +44,10 @@ u8 t4_getTime();
 \return le temps écoulé en secondes
 */
 u8 t4_elapsedTime();
+
+
+/**
+\brief cette fonction permet de regarder la valeur de UIF
+\return la valeur de UIF
+*/
+int t4_end(void);
