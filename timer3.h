@@ -1,10 +1,11 @@
 /* TIMER 3 */
-
+#ifndef TIMER3
+#define TIMER3
 
 /**
 \brief cette fonction permet d'initialiser le timer 3
 */
-void t3_init();
+void t3_init(void);
 
 
 /**
@@ -24,20 +25,20 @@ void t3_setPSCR(u8 pscr);
 /**
 \brief cette fonction permet de lancer le comptage
 */
-void t3_start();
+void t3_start(void);
 
 
 /**
 \brief cette fonction permet d'arreter le comptage et de mettre en condition pour repartir
 */
-void t3_reset();
+void t3_reset(void);
 
 
 /**
-\brief cette fonction permet de connaitre le contenu actuel du registre CNTR
+\brief cette fonction permet de connaitre le contenu actuel des registres arr
 \return la valeur des registres
 */
-u16 t3_getTime();
+u16 t3_getTime(void);
 
 
 /**
@@ -45,3 +46,4 @@ u16 t3_getTime();
 \return la valeur de UIF
 */
 int t3_end(void);
+#endif
