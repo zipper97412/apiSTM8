@@ -4,22 +4,22 @@
 /**
 \brief cette fonction permet d'initialiser l'UART
 */
-void init();
+void UART_init();
 
 
 /**
-\brief reçoit un caractere par l'uart
-\return le caractère reçu, 0 sinon
+\brief reÃ§oit un caractere par l'uart
+\return le caractÃ¨re reÃ§u, 0 sinon
 */
-char getchar();
+char UART_getchar();
 
 
 /**
-\brief envoie un caractère par l'uart
+\brief envoie un caractÃ¨re par l'uart
 \param car le caractere a envoyer
 \return 0 si tout s'est bien passe, 1 sinon
 */
-u8 putchar(char car);
+u8 UART_putchar(char car);
 
 
 /**
@@ -27,4 +27,4 @@ u8 putchar(char car);
 \param chaine la chaine a envoyer
 \return 0 si tout s'est bien passe, 1 sinon
 */
-u8 putchars(char* chaine);
+u8 UART_putstring(char* chaine);
