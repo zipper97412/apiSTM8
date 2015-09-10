@@ -1,3 +1,13 @@
+/* UART */
+
+#include "stm8s_type.h"
+
+#ifndef UART_H
+#define UART_H
+
+#define ERROR  1
+#define SUCCESS  0 
+#define EMPTY 0
 
 /**
 \brief cette fonction permet d'initialiser l'UART
