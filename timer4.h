@@ -38,3 +38,9 @@ void t4_reset();
 \return la valeur des registres
 */
 u8 t4_getTime();
+
+/**
+\brief cette fonction permet de connaitre le temps écoulé d'un timer en secondes.
+\return le temps écoulé en secondes
+*/
+u8 t4_elapsedTime();
