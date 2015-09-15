@@ -2,9 +2,13 @@
 #include "stm8s.h"
 
 #define VIT1 12
-#define VIT2 7
-#define VIT3 6
-#define VIT4 5
+#define VIT2 11
+#define VIT3 10
+#define VIT4 9
+#define VIT5 8
+#define VIT6 7
+#define VIT7 6
+#define VIT8 5
 
 void elem_sleep(void) {
 	TIM4->CNTR=0x00;
@@ -39,6 +43,30 @@ void sleep(int potar)
 		break;
 		case 4: 
 			for(i=0;i<VIT4;i++) 
+			{
+				elem_sleep();
+			}
+		break;
+		case 5: 
+			for(i=0;i<VIT5;i++) 
+			{
+				elem_sleep();
+			}
+		break;
+		case 6: 
+			for(i=0;i<VIT6;i++) 
+			{
+				elem_sleep();
+			}
+		break;
+		case 7: 
+			for(i=0;i<VIT7;i++) 
+			{
+				elem_sleep();
+			}
+		break;
+		case 8: 
+			for(i=0;i<VIT8;i++) 
 			{
 				elem_sleep();
 			}
